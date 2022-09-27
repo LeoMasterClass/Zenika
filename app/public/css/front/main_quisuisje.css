@@ -1,0 +1,41 @@
+/* css lié a la page quisuisje */
+.quisuisje{
+    max-width: 773px;
+    margin: 0 auto;
+}
+.quisuisje h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 30px 0;
+}
+.quisuisje p{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.quisuisje li{
+    font-size: 1.2rem;
+}
+.quisuisje h3{
+    font-size: 1.7rem;
+    margin: 20px 0;
+}
+.quisuisje img{
+    max-width: 773px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .quisuisje{
+        max-width: 700px;
+    }
+    .quisuisje img{
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .quisuisje{
+        max-width: 500px;
+    }
+    .quisuisje img{
+        max-width: 500px;
+    }
+}

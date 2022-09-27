@@ -1,0 +1,30 @@
+RewriteEngine On
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^concept$ index.php?action=concept
+RewriteRule ^contact$ index.php?action=contact
+RewriteRule ^quisuisje$ index.php?action=quisuisje
+RewriteRule ^DIY$ index.php?action=diy
+RewriteRule ^inspirations$ index.php?action=inspiration
+RewriteRule ^travaux$ index.php?action=travaux
+RewriteRule ^connexion$ index.php?action=connexion
+RewriteRule ^inscription$ index.php?action=inscription
+RewriteRule ^deconnexion$ index.php?action=deconnexion
+RewriteRule ^compte$ index.php?action=compte
+RewriteRule ^article-([0-9]+)$ index.php?action=article&id=$1
+
+RewriteRule ^admin$ indexBack.php
+RewriteRule ^contact-panel$ indexBack.php?action=showContact
+RewriteRule ^dashboard$ indexBack.php?action=admin
+RewriteRule ^article-panel$ indexBack.php?action=articlesAdmin
+RewriteRule ^article-creation$ indexBack.php?action=articlesCreate
+RewriteRule ^edition-article-([0-9]+)$ indexBack.php?action=articleUpdate&id=$1
+RewriteRule ^membre-panel$ indexBack.php?action=gestionMembre
+RewriteRule ^membre-creation$ indexBack.php?action=articlesCreate
+RewriteRule ^inspi-panel$ indexBack.php?action=showInspi
+RewriteRule ^inspi-creation$ indexBack.php?action=createInspi
+
+

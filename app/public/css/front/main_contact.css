@@ -1,0 +1,141 @@
+/* css lié a la page contact*/
+
+.contact{
+    width: 60%;
+    margin: 0 auto;
+}
+.contact form{
+    width: 100%;
+    margin: 25px auto;
+}
+
+.contact form label{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #464646;
+    font-size: 1.3rem;
+}
+
+.contact .input-contact,.contact form textarea{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.contact form input{
+    padding: 13px;
+    width: 550px;
+    border: 1px solid #e8e8e8;
+}
+.contact form textarea{
+    border: 1px solid #e8e8e8;
+    width: 550px;
+    height: 250px;
+    padding: 13px;
+
+}
+
+.message-confirmation{
+    background-color: rgb(63, 170, 63);
+    font-size: 1.7rem;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px 5px;
+}
+.message-erreur{
+    background-color: rgb(209, 35, 35);
+    font-size: 1.7rem;
+    color: white;
+    text-align: center;
+    width: 60%;
+    padding: 5px 5px;
+    margin: 5px auto;
+}
+.envoie-contact{
+    padding: 10px 15px;
+    margin-top: 30px;
+    font-size: 1rem;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+
+.map {
+    width: 30%;
+    height: 484px;
+}
+
+#map{
+    width: 80%;
+    height: 300px;
+    margin: 40px auto;
+}
+
+.map h2 {
+    text-align: center;
+    position: relative;
+}
+
+.contact-split{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .contact-split{
+        max-width: 700px;
+    }
+
+    .contact{
+        width: 60%;
+    }
+    .map{
+        width: 30%;
+    }
+    #map{
+        width: 100%;
+    }
+    .contact form input{
+        padding: 13px;
+        width: 400px;
+        border: 1px solid #e8e8e8;
+    }
+    .contact form textarea{
+        border: 1px solid #e8e8e8;
+        width: 400px;
+        height: 150px;
+        padding: 13px;
+    
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .contact-split{
+        max-width: 500px;
+        flex-direction: column;
+    }
+
+    .contact{
+        width: 90%;
+    }
+    .map{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #map{
+        width: 500px;
+    }
+    .contact form input{
+        padding: 13px;
+        width: 500px;
+        border: 1px solid #e8e8e8;
+    }
+    .contact form textarea{
+        border: 1px solid #e8e8e8;
+        width: 500px;
+        height: 150px;
+        padding: 13px;
+    
+    }
+}

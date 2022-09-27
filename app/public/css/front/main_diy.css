@@ -1,0 +1,75 @@
+/* css lié a la page diy */
+
+.diy{
+    max-width: 773px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.titre-diy{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.diy article{
+    width: 45%;
+    position: relative;
+    margin-top: 30px;
+}
+.diy article:hover{
+    top: -5px;
+    left: -5px;
+    box-shadow: 10px 5px 10px 5px rgba(0, 0, 0, 0.719);
+}
+.diy article img{
+    width: 100%;
+}
+.diy article .hoverDIY{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.diy article .hoverDIY:hover{
+    opacity: 1;
+}
+
+.diy h2{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    font-size: 2rem;
+    color: black;
+}
+.diy a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    .diy{
+        max-width: 500px;
+    }
+
+    .diy article .hoverDIY{
+        opacity: 1;
+    }
+
+    .diy article .hoverDIY:hover{
+        opacity: 0;
+    }
+}

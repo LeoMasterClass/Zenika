@@ -1,0 +1,76 @@
+/* css lié a la page connexion et inscription*/
+
+.connexion,
+.inscription{
+    max-width: 773px;
+    margin: 100 auto;
+    border: 1px solid black;
+
+}
+.connexion h1,
+.inscription h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: 15px 0;
+}
+.connexion .input-connexion,
+.inscription .input-inscription{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+.connexion .input-connexion label,
+.inscription .input-inscription label{
+    color: #464646;
+    font-size: 1.3rem;
+}
+.connexion .input-connexion input,
+.inscription .input-inscription input{
+    padding: 15px;
+}
+
+.envoieco,
+.envoieinscri{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding: 25px 0;
+}
+.envoieco input,
+.envoieinscri input{
+    font-size:1.2rem;
+    color: white;
+    background-color: #464646;
+    border: none;
+    padding: 5px 10px;
+}
+.checkbox{
+    margin: 10 auto;
+}
+.checkbox div{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.envoieco input:hover,
+.envoieinscri input:hover{
+    background-color: rgb(161, 121, 85);
+}
+/* .checkbox div input{
+    
+} */
+.checkbox div a{
+    color: black;
+}
+/* message d'information connexion */
+.info_inscription{
+    margin: 10px auto;
+    padding: 10px 0;
+    max-width: 400px;
+    font-weight: 300;
+    text-align: center;
+    border-top: 1px solid rgb(70, 70, 70);
+    border-bottom: 1px solid rgb(70, 70, 70);
+}

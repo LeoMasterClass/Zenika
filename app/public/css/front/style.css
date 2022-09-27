@@ -1,0 +1,81 @@
+/* Margin et padding par defaut */
+
+*{
+    margin: 0 0;
+    padding: 0 0; 
+}
+
+/* gestion du main */
+.container {
+    max-width: 960px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* différente font utiliser */
+.font-texte{
+
+    font-family: 'Bellota', cursive; 
+    /* font-family: 'Pacifico', cursive; */
+}
+.font-titre{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+.font-nav{
+    font-family: 'Courgette', cursive;
+    font-weight: 200;
+}
+
+/* Partie mediaqueries */
+
+@media screen and (min-width: 769px) and (max-width: 959px) {
+.container{
+    max-width: 769px;
+
+}
+
+#slider{
+    width: 700px;
+    height: 400px;
+}
+
+.slides {
+    /* Pourcentage du width a modifier selon le besoin,
+    100% pour une image donc par exemple 4 images = 400% */
+    width: 400%;
+    height: 400px;
+    padding:0; margin:0;
+    list-style: none;
+}
+
+.slide img{
+    width: 700px;
+    height: 400px;
+}
+
+}
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 550px;
+    
+    }
+    
+    #slider{
+        width: 500px;
+        height: 300px;
+    }
+    
+    .slides {
+        /* Pourcentage du width a modifier selon le besoin,
+        100% pour une image donc par exemple 4 images = 400% */
+        width: 400%;
+        height: 300px;
+        padding:0; margin:0;
+        list-style: none;
+    }
+    .slide img{
+        width: 500px;
+        height: 300px;
+    }
+}

@@ -1,0 +1,40 @@
+/* css lié a la page admin */
+.title-dashboard{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-size: 30px;
+}
+
+.dashboard{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.bloc-dashboard{
+    width: 40%;
+    margin: 25px 0;
+    padding: 25px;
+    background-color: rgb(243,222,203);
+}
+
+.bloc-dashboard h2{
+    height: 100px;
+}
+
+.bloc-dashboard li{
+    list-style-type: none;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+.bloc-dashboard li a{
+    text-decoration: none;
+    color: black;
+}
+.bloc-dashboard li a:hover{
+    color: white;
+}

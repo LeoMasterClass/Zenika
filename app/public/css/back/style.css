@@ -1,0 +1,121 @@
+/* margin et padding par defaut + font utiliser dans les panel admin */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(243,222,203);
+}
+.container{
+    max-width: 960px;
+    margin: 50px auto;
+    padding: 30px 0;
+    background-color: white;
+}
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+/* utilisé pour les labels formulaires */
+.font-titre{
+    font-family: 'Muli', sans-serif;
+    font-size: 1.7rem;
+}
+/* Utilisé pour les textes de base du site */
+.font-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* header du panel admin */
+header{
+    width: 100%;
+    background-color: white;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+.title-admin{
+    font-size: 1.8rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav h2{
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+}
+
+/* CSS BOUTTON */
+
+.boutton-validation{
+    padding: 5px 10px;
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.bouton-add{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.bouton-add a{
+    text-decoration: none;
+}
+.add{
+    padding: 5px 10px;
+    background-color: rgb(243,222,203);
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+.add:hover{
+    background-color: rgb(245, 212, 181);
+}
+
+/* Tableau panel */
+
+.table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 25px auto;
+}
+  
+.table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+.table tr:hover{
+    background-color: #ddd;
+}
+  
+.table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(243,222,203);
+    color: white;
+}
+

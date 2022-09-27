@@ -1,0 +1,36 @@
+/* css lié a la page inspiration */
+.inspiration{
+    max-width: 773px;
+    margin: 0 auto;
+}
+.inspiration h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.inspiration article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.inspiration article img{
+    width: 32%;
+    padding: 8px 0;
+}
+
+.inspiration article img:nth-child(0n+4),
+.inspiration article img:nth-child(0n+5),
+.inspiration article img:nth-child(0n+9),
+.inspiration article img:nth-child(0n+10){
+    width: 49%;
+}
+
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .inspiration{
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .inspiration{
+        max-width: 500px;
+    }
+}

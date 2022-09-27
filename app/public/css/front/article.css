@@ -1,0 +1,12 @@
+/* css lié a la page article*/
+.articles{
+    margin: 20px auto;
+    width: 80%;
+}
+.articles img{
+    width: 100%;
+    text-align: center;
+}
+.articles h2{
+    margin: 20px 0;
+}

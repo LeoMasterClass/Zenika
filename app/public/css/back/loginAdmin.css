@@ -1,0 +1,29 @@
+/* css lié a la page loginAdmin*/
+.loginAdmin{
+    padding: 30px 0;
+}
+
+
+.loginAdmin h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.input-connexion{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.input-connexion input{
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+.boutton-co{
+    display: flex;
+    justify-content: center;
+    margin: 25px auto
+}

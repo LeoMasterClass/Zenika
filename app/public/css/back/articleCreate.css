@@ -1,0 +1,70 @@
+/* css lié a la page de création d'article */
+.panel-article-creation{
+    width: 80%;
+    margin: 0 auto;
+}
+.input-creation-article{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.input-creation-article label{
+    margin: 10px 0;
+}
+
+.input-creation-article input, .input-creation-article textarea{
+    padding: 10px 10px;
+}
+
+.bouton-creation{
+    text-align: center;
+}
+
+
+
+/* gestion user */
+
+.create-member{
+    max-width: 773px;
+    margin: 100 auto;
+    border: 1px solid black;
+
+}
+
+.create-member h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.create-member .input-inscription{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.create-member .input-inscription label{
+    color: #464646;
+    font-size: 1.3rem;
+}
+
+.create-member .input-inscription input{
+    padding: 15px;
+}
+
+
+.envoieinscri{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.envoieinscri input{
+    font-size:1.2rem;
+    color: white;
+    background-color: #464646;
+    border: none;
+    padding: 5px 10px;
+}

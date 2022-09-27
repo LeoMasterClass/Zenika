@@ -1,0 +1,74 @@
+/* css lié au footer */
+footer{
+    background-color: white;
+    margin-top:10px;
+    padding: 20px 0;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.casefooter{
+    border-right: 1px solid black;
+    width: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 0;
+}
+.casefooter:last-child{
+    border: none;
+}
+.casefooter li{
+    text-align: start;
+    margin: 10px 0;
+}
+.casefooter li a{
+    text-decoration: none;
+    color: black;
+}
+.info ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+.info .reseaux li{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+.info .reseaux img{
+    width: 30px;
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 959px) {
+    .info{
+        max-width: 769px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .info{
+        max-width: 450;
+        flex-direction: column;
+    }
+    .casefooter{
+        border-right: none;
+        border-bottom: 1px solid black;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 20px 0;
+    }
+
+}
